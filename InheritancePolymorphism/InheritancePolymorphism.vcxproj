@@ -143,6 +143,7 @@
     <ClInclude Include="MM.h" />
     <ClInclude Include="MM_Guess.h" />
     <ClInclude Include="NumberGuess.h" />
+    <ClInclude Include="TicTacToe.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp" />
