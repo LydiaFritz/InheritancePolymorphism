@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Game.h" />
+    <ClInclude Include="GameUtility.h" />
     <ClInclude Include="MM.h" />
     <ClInclude Include="MM_Guess.h" />
     <ClInclude Include="NumberGuess.h" />

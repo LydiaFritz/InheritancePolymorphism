@@ -1,9 +1,7 @@
 #include <iostream>
 #include <string>
-#include "Game.h"
-#include "NumberGuess.h"
-#include "MM.h"
-#include "TicTacToe.h"
+#include "GameUtility.h"
+
 
 
 int main() {
