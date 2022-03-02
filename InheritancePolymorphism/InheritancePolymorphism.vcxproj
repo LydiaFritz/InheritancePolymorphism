@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Game.h" />
+    <ClInclude Include="NumberGuess.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp" />
