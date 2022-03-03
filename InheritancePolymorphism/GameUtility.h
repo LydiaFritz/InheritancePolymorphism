@@ -5,5 +5,6 @@
 #include "NumberGuess.h"
 #include "MM.h"
 #include "TicTacToe.h"
+#include "Sudoku.h"
 
 #endif

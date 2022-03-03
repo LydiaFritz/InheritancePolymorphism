@@ -20,7 +20,7 @@ private:
 	bool outOfGuesses();
 
 public:
-	MM() {
+	MM() : Game("Mastermind", 1) {
 		numGuesses = 0;
 		secretCode.setMaster();
 		whitePegs = blackPegs = 0;
@@ -47,7 +47,7 @@ bool MM::isWinner()
 
 bool MM::outOfGuesses()
 {
-	return numGuesses == 5;
+	return numGuesses == 6;
 }
 
 void MM::generateFeedback()
@@ -84,6 +84,7 @@ void MM::generateFeedback()
 //override function
 void MM::play()
 {
+	std::cout << "Welcome to Mastermind...let's see if you can outsmart the master..." << std::endl;
 	//show guess for debug
 	//cout << secretCode[0] << " " << secretCode[1] << " " << secretCode[2] << " " << secretCode[3] << endl;
 	while (!isWinner() && !outOfGuesses()) {

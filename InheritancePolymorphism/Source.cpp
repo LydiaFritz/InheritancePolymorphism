@@ -6,7 +6,7 @@
 
 int main() {
 
-	Game* gamePtr = new TicTacToe();
+	Game* gamePtr = new MM();
 	gamePtr->play();
 
 	return 0;
